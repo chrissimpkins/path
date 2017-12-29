@@ -1,6 +1,7 @@
-//
-// Created by Christopher Simpkins on 12/29/17.
-//
+/*
+ * Copyright 2017 Christopher Simpkins
+ * MIT License
+ */
 
 #ifndef PATH_MAIN_H
 #define PATH_MAIN_H
@@ -10,7 +11,7 @@ inline void print_version();
 inline void print_path();
 inline void print_usage();
 
-#define PATH_VERSION "0.1.1"
+#define PATH_VERSION "1.0.0"
 
 const char *helpstring = "===============================================\n"
 " path\n"

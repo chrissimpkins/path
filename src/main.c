@@ -1,3 +1,8 @@
+/*
+ * Copyright 2017 Christopher Simpkins
+ * MIT License
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
