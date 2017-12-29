@@ -9,10 +9,13 @@
 int main(int argc, char **argv) {
     int c;
 
-    while ((c = getopt(argc, argv, "hv")) != -1) {
+    while ((c = getopt(argc, argv, "huv")) != -1) {
         switch (c) {
             case 'h':
                 print_help();
+                exit(0);
+            case 'u':
+                print_usage();
                 exit(0);
             case 'v':
                 print_version();
@@ -44,10 +47,12 @@ void print_path() {
 
 void print_help() {
     printf("%s", helpstring);
-    exit(0);
+}
+
+void print_usage() {
+    printf("%s", usagestring);
 }
 
 void print_version(){
     printf("path v%s\n", PATH_VERSION);
-    exit(0);
 }
