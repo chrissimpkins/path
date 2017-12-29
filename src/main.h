@@ -6,10 +6,10 @@
 #ifndef PATH_MAIN_H
 #define PATH_MAIN_H
 
-inline void print_help();
-inline void print_version();
-inline void print_path();
-inline void print_usage();
+void print_help();
+void print_version();
+void print_path();
+void print_usage();
 
 #define PATH_VERSION "1.0.0"
 
