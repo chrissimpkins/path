@@ -4,6 +4,8 @@
 
 `path` is a command line executable for display of the system PATH as an ordered list. It is intended for Unix-like systems including Linux and macOS.
 
+![path](https://user-images.githubusercontent.com/4249591/34450807-036fe1b6-ece2-11e7-9841-69c175ecc5b3.png)
+
 ## Install
 
 `path` is installed on the path `/usr/local/bin/path` using a standard make installation approach:
