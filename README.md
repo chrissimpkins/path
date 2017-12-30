@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chrissimpkins/path.svg?branch=master)](https://travis-ci.org/chrissimpkins/path)
 
-`path` is a command line executable for display of all paths on the system PATH as an ordered list. It is intended for Unix-like systems including Linux and macOS.
+`path` is a command line executable that displays all paths on the system PATH as an ordered list by descending priority. It is intended for Unix-like systems including Linux and macOS.
 
 ![path](https://user-images.githubusercontent.com/4249591/34450807-036fe1b6-ece2-11e7-9841-69c175ecc5b3.png)
 
