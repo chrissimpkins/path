@@ -54,6 +54,7 @@ dkms.conf
 # CLion files
 .idea/
 cmake-build-debug/
+.cache/
 
 # Builds
 bin/
