@@ -39,7 +39,7 @@ $ path
 ```
 
 This request will stream an ordered, newline delimited list of your system PATH directory paths to the standard output stream. The list is in descending order of priority from highest (top) to lowest (bottom).
-.
+
 ## License
 
 [MIT License](https://github.com/chrissimpkins/path/blob/master/LICENSE)
