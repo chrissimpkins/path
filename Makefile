@@ -1,4 +1,4 @@
-CFLAGS=-g -O3 -Wall -Wextra -DNDEBUG $(OPTFLAGS)
+CFLAGS=-g -O3 -Wall -Wextra -Wformat=2 -DNDEBUG $(OPTFLAGS)
 PREFIX?=/usr/local/bin
 
 SOURCES=$(wildcard src/*.c src/**/*.c)
@@ -18,7 +18,7 @@ clean:
 	-rm bin/$(TARGET)
 	-rm $(OBJECTS)
 
-dev: CFLAGS=-g -Wall -Wextra $(OPTFLAGS)
+dev: CFLAGS=-g -Wall -Wextra -Wformat=2 $(OPTFLAGS)
 dev: all
 
 install: all
