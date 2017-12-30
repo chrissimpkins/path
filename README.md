@@ -26,7 +26,7 @@ The command line executable is simply called with:
 $ path
 ```
 
-This request will stream an ordered, newline delimited list of your system PATH directory paths to the standard output stream. The list is in descending order from highest priority (top) to lowest priority (bottom).
+This request will stream an ordered, newline delimited list of your system PATH directory paths to the standard output stream. The list is in descending order of priority from highest (top) to lowest (bottom).
 .
 ## License
 
