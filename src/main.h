@@ -11,7 +11,7 @@ void print_version();
 void print_path();
 void print_usage();
 
-#define PATH_VERSION "1.0.0"
+#define PATH_VERSION "0.9.0"
 
 const char *helpstring = "===============================================\n"
 " path\n"
