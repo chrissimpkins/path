@@ -22,6 +22,7 @@ dev: CFLAGS=-g -Wall -Wextra $(OPTFLAGS)
 dev: all
 
 install: all
+	@mkdir -p $(PREFIX)
 	install $(TARGET) $(PREFIX)/
 
 $(TARGET): build $(OBJECTS)
