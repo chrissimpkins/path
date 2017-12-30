@@ -8,9 +8,21 @@
 
 ## Install
 
-[Download the source code archive](https://github.com/chrissimpkins/path/releases/latest) and unpack it to a directory on your system.  Navigate to the root of the source archive that you unpacked.
+### Build Dependencies
 
-Next, compile the executable from source and install with:
+Please confirm that `make` is installed to use the following instructions for installation of `path`. 
+
+macOS users must install XCode with the command line developer tools in order to compile `path` from source. You can install XCode from the App Store.
+
+Most Linux users can install `make` with the respective Linux distro package manager if it is not available by default.
+
+### Download path source code
+
+[Download an archive of the `path` source code](https://github.com/chrissimpkins/path/releases/latest) and unpack it to a directory on your system.  Navigate to the root of the source code archive that you unpacked.
+
+### Compile the executable
+
+Next, compile the executable from the source code and install with:
 
 ```text
 $ make && sudo make install
@@ -20,7 +32,7 @@ $ make && sudo make install
 
 ## Usage
 
-The command line executable is simply called with:
+`path` is executed with a simple command line request:
 
 ```text
 $ path
