@@ -1,6 +1,6 @@
 # Config file for automatic testing at travis-ci.org
 
-sudo: true
+sudo: false
 language: python
 
 before_script:
@@ -11,7 +11,6 @@ install:
 
 script:
     - pytest
-    - sudo make install
 
 notifications:
   email: false
