@@ -8,6 +8,19 @@
 
 ## Install
 
+### Quick Install
+
+Execute the following series of commands to download the source archive, unpack it, and install `path` to `/usr/local/bin/path`:
+
+```text
+curl -LO https://github.com/chrissimpkins/path/archive/master.tar.gz
+tar -xvzf master.tar.gz
+cd path-master
+make && sudo make install
+```
+
+Detailed installation instructions follow if you have difficulties with the above installation approach.
+
 ### Build Dependencies
 
 Please confirm that `make` is installed to use the following instructions for installation of `path`. 
