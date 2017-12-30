@@ -23,7 +23,7 @@ dev: all
 
 install: all
 	@mkdir -p $(PREFIX)
-	install $(TARGET) $(PREFIX)/
+	install bin/$(TARGET) $(PREFIX)/
 
 $(TARGET): build $(OBJECTS)
 	$(CC) $(OBJECTS) -o bin/$(TARGET)
